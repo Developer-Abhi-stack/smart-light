@@ -2,6 +2,7 @@
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import Products from './components/Products'
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
     <div>
       <Header />
       <h1 className='text-center text-5xl'>Hello User</h1>
+      <Products />
       <Footer />
     </div>
   )
