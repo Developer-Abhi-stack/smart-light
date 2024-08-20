@@ -1,8 +1,10 @@
 
 import './App.css'
+import Ecosystem from './components/Ecosystem'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Heading from './components/Heading'
+import Plateform from './components/Plateform'
 import Products from './components/Products'
 
 function App() {
@@ -12,7 +14,8 @@ function App() {
     <div>
       <Header />
       <Heading />
-      <h1 className='text-center text-5xl'>Hello User</h1>
+      <Ecosystem />
+      <Plateform />
       <Products />
       <Footer />
     </div>
